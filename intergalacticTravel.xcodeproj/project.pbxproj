@@ -13,6 +13,7 @@
 		CA43D5C2237336B600F189BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA43D5C0237336B600F189BE /* Main.storyboard */; };
 		CA43D5C4237336B600F189BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA43D5C3237336B600F189BE /* Assets.xcassets */; };
 		CA43D5C7237336B600F189BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA43D5C5237336B600F189BE /* LaunchScreen.storyboard */; };
+		CA8A73972375D94A00DD5674 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8A73962375D94A00DD5674 /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CA43D5C3237336B600F189BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA43D5C6237336B600F189BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA43D5C8237336B600F189BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA8A73962375D94A00DD5674 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				CA43D5BC237336B600F189BE /* SceneDelegate.swift */,
 				CA43D5BE237336B600F189BE /* ViewController.swift */,
 				CA43D5C0237336B600F189BE /* Main.storyboard */,
+				CA8A73962375D94A00DD5674 /* secondViewController.swift */,
 				CA43D5C3237336B600F189BE /* Assets.xcassets */,
 				CA43D5C5237336B600F189BE /* LaunchScreen.storyboard */,
 				CA43D5C8237336B600F189BE /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA8A73972375D94A00DD5674 /* secondViewController.swift in Sources */,
 				CA43D5BF237336B600F189BE /* ViewController.swift in Sources */,
 				CA43D5BB237336B600F189BE /* AppDelegate.swift in Sources */,
 				CA43D5BD237336B600F189BE /* SceneDelegate.swift in Sources */,

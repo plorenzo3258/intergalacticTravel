@@ -47,10 +47,10 @@
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="129.91071428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="aKm-a8-xb6">
             <objects>
-                <viewController id="xQa-Hv-IBS" sceneMemberID="viewController">
+                <viewController id="xQa-Hv-IBS" customClass="secondViewController" customModule="intergalacticTravel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eqU-un-fpm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,6 +64,9 @@
                         <viewLayoutGuide key="safeArea" id="Unb-2S-z0V"/>
                     </view>
                     <navigationItem key="navigationItem" id="OMs-w7-5pd"/>
+                    <connections>
+                        <outlet property="starImageView" destination="vJU-Wf-6nq" id="iwa-Tb-CjX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4xI-Ep-8Tl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
